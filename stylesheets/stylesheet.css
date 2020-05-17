@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Muli&family=Roboto&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.6.3/css/all.css");
+@import url("components/cards.css");
+@import url("components/buttons.css");
+
+body {
+  background-color: #EDEDED;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
+  font-size: 24px;
+}
+
+a {
+  font-family: 'Muli', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.list-inline {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.social-icon {
+  font-size: 56px;
+  color: #1985a1;
+}
