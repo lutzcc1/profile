@@ -94,7 +94,7 @@
   font-weight: bold;
   padding: 16px;
   box-shadow: 0 5px 20px rgba(0,0,0,.125);
-  margin-bottom: 16px;
+  margin: 16px 0;
 }
 
  .icons-grid {
@@ -112,6 +112,15 @@
 
  .skill-icon {
   font-size: 50px;
+ }
+
+ .trait-list {
+  list-style: none;
+  padding: 0;
+ }
+
+ .trait-item {
+  margin: 8px 0;
  }
 
 
