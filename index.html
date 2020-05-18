@@ -9,28 +9,113 @@
     <title>My profile</title>
   </head>
 
-  <body>
+  <body class="d-flex flex-column justify-content-between">
     <div class="container">
       <div class="header-card" id="introduction">
         <div id="header-card-banner">
           <img id="avatar" class="text-center" src="images/me.jpg" alt="Beautiful me">
         </div>
         <h1>Hello, I'm Luis!</h1>
-        <h2>Programmer</h2>
+        <h2>Software Developer</h2>
         <div id="bio">
-          <p>Lurem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <a id="about-me-btn" class="btn btn-secondary" href="">More about me</a>
+        <a class="btn my-btn" href="luis-cesar-cv.pdf" download>Takea a look at my CV</a>
       </div>
-      <div class="card" id="social">
-        <h2>Follow me</h2>
-        <ul class="list-inline">
-          <li><a class="social-icon" href="https://twitter.com/lutzcc1" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-          <li><a class="social-icon" href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-          <li><a class="social-icon" href="https://github.com/lutzcc1" target="_blank"><i class="fab fa-github-square"></i></a></li>
-        </ul>
+
+      <div class="accordion" id="myAccordion">
+        <div class="card accordion-card" id="first-accordion-card">
+          <div class="card-header" id="headingOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left accordion-card-title" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Interests
+              </button>
+            </h2>
+          </div>
+
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#myAccordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card accordion-card">
+          <div class="card-header" id="headingTwo">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed accordion-card-title" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Skills
+              </button>
+            </h2>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#myAccordion">
+            <div class="card-body">
+              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+            </div>
+          </div>
+        </div>
+
+        <div class="card accordion-card" id="last-accordion-card">
+          <div class="card-header" id="headingThree">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left collapsed accordion-card-title" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Work Samples
+              </button>
+            </h2>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#myAccordion">
+            <div class="card-body">
+              <div class="card-deck work-sample-card">
+
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(images/dinner.jpg)">
+                    HomEt
+                  </div>
+                  <div class="card-body">
+                    <p class="card-text text-justify">This is a web application to share experiences and great moments between locals and tourist. The excuse? A delicious homemade meal.</p>
+                    <p class="card-text text-justify">Foreign tourists can book meals at locals households so that they can enjoy homemade local food while meeting new and exciting people.</p>
+                    <p class="card-text text-justify">On the other side, locals can receive foreign tourists so that they can share their traditions and local expertise while making new friends.</p>
+                    <a href="https://homet-lutzcc1.herokuapp.com/" class="btn my-btn">Take a look</a>
+                  </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 540px;">
+                  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url(images/mr-cocktail.png)"></div>
+                  <div class="card-body">
+                    <p class="card-text text-justify">This web app allow us to discover new cocktail recipes and share the ones we already know.</p>
+                    <a href="https://mr-cocktail-lutzcc1.herokuapp.com/" class="btn my-btn">Take a look</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class=" container contact-card" id="social">
+        <h2>Contact</h2>
+            <ul class="list-inline">
+              <li><a class="social-icon linkedin" href="https://www.linkedin.com/in/luis-cesar-cordova/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+              <li><a class="social-icon email" href="mailto:lutzcc1@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a></li>
+              <li><a class="social-icon github" href="https://github.com/lutzcc1" target="_blank"><i class="fab fa-github-square"></i></a></li>
+              <li><a class="social-icon twitter" href="https://twitter.com/lutzcc1" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+            </ul>
+      </div>
+
+    </div> <!-- container -->
+
+    <div class="footer">
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      <div class="footer-copyright">
+        Luis César
       </div>
     </div>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
