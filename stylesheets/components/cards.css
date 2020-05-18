@@ -83,7 +83,16 @@
   border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
-/* Work sample cards */
+/* Skills card */
+ #technologies-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  grid-row-gap: 10px;
+ }
+
+
+/* Work sample card */
 
 .card.work-sample-cards {
   border: 1px solid rgba(0,0,0,.125);
@@ -124,7 +133,15 @@
   transition-duration: 0.3s;
 }
 
+.social-icon:hover {
+  text-shadow: 0 0 8px rgba(0,0,0,0.32);
+}
+
 .linkedin {
+  color: #0077b5;
+}
+
+.linkedin:hover {
   color: #0077b5;
 }
 
@@ -132,12 +149,16 @@
   color: #dc493d;
 }
 
+.email:hover {
+  color: #dc493d;
+}
+
 .github {
   color: black;
 }
 
-.twitter {
-  color: #1da1f2;
+.github:hover {
+  color: black;
 }
 
 
