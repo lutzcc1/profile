@@ -84,11 +84,47 @@
 }
 
 /* Skills card */
- #technologies-grid {
+.icons-card {
+  text-align: center;
+}
+
+.icons-card > h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 16px;
+  box-shadow: 0 5px 20px rgba(0,0,0,.125);
+  margin: 16px 0;
+}
+
+ .icons-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
   grid-row-gap: 10px;
+ }
+
+ .tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .skill-icon {
+  font-size: 50px;
+ }
+
+ .tech-icon {
+  height: 60px;
+ }
+
+ .trait-list {
+  list-style: none;
+  padding: 0;
+ }
+
+ .trait-item {
+  margin: 8px 0;
  }
 
 
@@ -125,7 +161,7 @@
   justify-content: space-evenly;
   list-style: none;
   padding: 0;
-  margin: 0 auto;
+  margin: 8px auto;
 }
 
 .social-icon {
@@ -154,11 +190,11 @@
 }
 
 .github {
-  color: black;
+  color: #24292e;
 }
 
 .github:hover {
-  color: black;
+  color: #24292e;
 }
 
 
