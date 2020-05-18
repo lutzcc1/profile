@@ -1,3 +1,19 @@
-#about-me-btn {
+.my-btn {
+  border: none;
+  background-color: #ffa400;
   margin-bottom: 8px;
+  color: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  transition-duration: 0.3s;
+}
+
+.my-btn:hover {
+  color: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.32);
+}
+
+#email {
+  width: 100px;
+  height: 25px;
+  background-color: blue;
 }
