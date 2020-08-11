@@ -17,7 +17,7 @@
     if($("#"+$this.id).lenght > 0){
       $("#"+$this.id).remove();
     }
-    $this.object = $("<div style='z-index:-1;margin:0;padding:0; overflow:hidden;position:absolute;bottom:0' id='"+$this.id+"'> </div>'").appendTo("body");
+    $this.object = $("<div style='z-index:-1;margin:0;padding:0; overflow:hidden;position:fixed;bottom:0' id='"+$this.id+"'> </div>'").appendTo("body");
 
     $this.ww = $(window).width()
     $this.wh = $(window).height()
