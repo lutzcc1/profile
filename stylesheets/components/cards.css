@@ -87,20 +87,11 @@
   text-align: center;
 }
 
-.icons-card > h3 {
-  font-family: 'Muli', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 16px;
-  box-shadow: 0 5px 20px rgba(0,0,0,.125);
-  margin: 16px 0;
-}
-
  .icons-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 10px;
-  grid-row-gap: 10px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
  }
 
  .tech-item {
@@ -115,6 +106,7 @@
 
  .tech-icon {
   height: 60px;
+  margin: 16px 28px 0 28px;
  }
 
  .trait-list {
