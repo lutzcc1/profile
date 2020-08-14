@@ -4,7 +4,6 @@
 @import url("components/cards.css");
 @import url("components/buttons.css");
 @import url("components/footers.css");
-@import url("components/forms.css");
 
 body {
   /*background-color: #EDEDED;*/
@@ -15,9 +14,24 @@ body {
   background: #000000;
 }
 
+h1 {
+  font-family: 'Fugaz One', cursive;
+  font-size: 42px;
+  margin-top: 50px;
+}
+
 h2 {
   font-family: 'Muli', sans-serif;
   font-size: 24px;
+}
+
+h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: 0;
 }
 
 a {

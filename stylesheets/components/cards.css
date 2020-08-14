@@ -1,20 +1,11 @@
-.card.accordion-card {
-  border: none;
-}
-
+/* header card */
 .header-card {
   text-align: center;
   background-color: #F9F9F9;
   border-radius: 8px;
-  margin: 16px 0;
+  margin: 34px 0;
   padding: 4px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-}
-
-.header-card > h1 {
-  font-family: 'Fugaz One', cursive;
-  font-size: 42px;
-  margin-top: 50px;
 }
 
 #header-card-banner {
@@ -35,72 +26,17 @@
   border: 4px solid #f9f9f9;
 }
 
-/* Accordeon style */
-
-#myAccordion {
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-  border-radius: 8px;
-}
-
-#myAccordion .card-header {
-  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
-}
-
-#myAccordion #first-accordion-card {
-  border-radius: 8px 8px 0 0;
-  overflow: hidden;
-}
-
-#myAccordion #last-accordion-card {
-  border-radius: 0 0 8px 8px;
-  overflow: hidden;
-}
-
-.accordion-card-title {
-  font-family: 'Muli', sans-serif;
-  color: #505050;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.accordion-card-title:focus {
-  box-shadow: none;
-  text-decoration: none;
-  color: black;
-}
-
-.accordion-card-title:hover {
-  text-decoration: none;
-  color: black;
-}
-
-#last-accordion-card {
-  border-top: 1px solid rgba(0,0,0,.125);
-}
-
-#first-accordion-card {
-  border-bottom: 1px solid rgba(0,0,0,.125);
-}
-
-/* Skills card */
+/* skills container */
 .icons-card {
   text-align: center;
 }
 
-.icons-card > h3 {
-  font-family: 'Muli', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 16px;
-  box-shadow: 0 5px 20px rgba(0,0,0,.125);
-  margin: 16px 0;
-}
-
  .icons-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 10px;
-  grid-row-gap: 10px;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 34px;
  }
 
  .tech-item {
@@ -109,28 +45,15 @@
   align-items: center;
  }
 
- .skill-icon {
-  font-size: 50px;
- }
-
  .tech-icon {
   height: 60px;
+  margin: 16px 28px 0 28px;
  }
-
- .trait-list {
-  list-style: none;
-  padding: 0;
- }
-
- .trait-item {
-  margin: 8px 0;
- }
-
 
 /* Work sample card */
-
-.card.work-sample-cards {
-  border: 1px solid rgba(0,0,0,.125);
+.project-card {
+  max-width: 540px;
+  height: 100%;
 }
 
 .card-img {
@@ -141,6 +64,23 @@
 
 .card-img-container {
   border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+.project-header {
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 4px 4px 0 0;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 40px;
+  text-shadow: 0 0 10px #000000;
+  width: 100%;
 }
 
 /* Contact card */
@@ -202,22 +142,4 @@
 
 .github:hover {
   color: #24292e;
-}
-
-
-/* Le Wagon category card */
-.card-category {
-  background-size: cover;
-  background-position: center;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  border-radius: 4px 4px 0 0;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-  font-size: 40px;
-  text-shadow: 0 0 10px #000000;
 }

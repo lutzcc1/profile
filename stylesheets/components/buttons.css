@@ -1,5 +1,5 @@
 .resume-btn {
-  font-family: Hack, monospace;
+  font-family: 'Muli', sans-serif;
   background: #000;
   color: #ffffff;
   cursor: pointer;
@@ -13,6 +13,10 @@
   margin-bottom: 8px;
 }
 
+.resume-btn:focus {
+  outline: none;
+}
+
 .resume-btn::after {
     content: "\f381";
     font-family: "Font Awesome 5 Free";
@@ -23,7 +27,6 @@
     right: 0;
     bottom: 0;
     opacity: 0;
-
 }
 
 .resume-btn:hover {
@@ -37,13 +40,4 @@
 .resume-btn:hover::after {
     opacity: 1;
     transition: all 0.5s;
-
 }
-
-#email {
-  width: 100px;
-  height: 25px;
-  background-color: blue;
-}
-
-

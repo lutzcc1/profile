@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="stylesheets/stylesheet.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Luis Cesar</title>
+    <title>Luis César</title>
   </head>
 
-  <body class="d-flex flex-column justify-content-between">
+  <body>
     <div class="container">
+      
       <div class="header-card" id="introduction">
         <div id="header-card-banner">
           <img id="avatar" class="text-center" src="images/me.jpg" alt="Beautiful me">
@@ -21,93 +22,77 @@
         <div id="bio">
           <p>Product focused full-stack developer with a love for building quality, beautiful and useful products that solve real problems in creative ways.</p>
         </div>
-        <a href="luis_cesar_resume.pdf" download>
+        <a href="#" download>
           <button class="resume-btn">resume</button>
         </a>
       </div>
 
 
-      <div class="card-body container">
+      <div class="container">
+        <div class="icons-card">
+          <h3>Technologies I have worked with</h3>
+          <div class="icons-grid mt-4">
+            <div class="tech-item"><img class="tech-icon" src="images/technologies/ruby.png" alt="">Ruby</div>
+            <div class="tech-item"><img class="tech-icon" src="images/technologies/ror.png" alt="">Ruby on Rails</div>
+            <div class="tech-item"><img class="tech-icon" src="images/technologies/javascript.png" alt="">JavaScript</div>
+            <div class="tech-item"><img class="tech-icon" src="images/technologies/html.png" alt="">HTML</div>
+            <div class="tech-item"><img class="tech-icon" src="images/technologies/css.png" alt="">CSS</div>
+            <div class="tech-item"><img class="tech-icon" src="images/technologies/git.png" alt="">Git</div>
+            <div class="tech-item"><img class="tech-icon" src="images/technologies/github.png" alt="">GitHub</div>
+            <div class="tech-item"><img class="tech-icon" src="images/technologies/postgresql.png" alt="">Postgresql</div>
+            <div class="tech-item"><img class="tech-icon" src="images/technologies/heroku.png" alt="">Heroku</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <h3>Some of my projects</h3>
 
         <div class="row justify-content-center">
-          <div class="col-sm-12 col-md-6 col-lg-4 icons-card" id="theorical-grid">
-            <h3>Theorical Knowledge</h3>
-            <div class="icons-grid">
-              <div class="theorical-item"><div class="skill-icon"><i class="fas fa-project-diagram"></i></div>Data structures</div>
-              <div class="theorical-item"><div class="skill-icon"><i class="fab fa-connectdevelop"></i></div>Algorithms</div>
-              <div class="theorical-item"><div class="skill-icon"><i class="fas fa-server"></i></div>Networks</div>
-              <div></div>
-              <div class="theorical-item"><div class="skill-icon"><i class="fas fa-microchip"></i></div></i>Systems architecture</div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 icons-card">
-            <h3>Technologies I have worked with</h3>
-            <div class="icons-grid">
-              <div class="tech-item"><img class="tech-icon" src="images/technologies/ruby.png" alt="">Ruby</div>
-              <div class="tech-item"><img class="tech-icon" src="images/technologies/ror.png" alt="">Ruby on Rails</div>
-              <div class="tech-item"><img class="tech-icon" src="images/technologies/javascript.png" alt="">JavaScript</div>
-              <div class="tech-item"><img class="tech-icon" src="images/technologies/html.png" alt="">HTML</div>
-              <div class="tech-item"><img class="tech-icon" src="images/technologies/css.png" alt="">CSS</div>
-              <div class="tech-item"><img class="tech-icon" src="images/technologies/git.png" alt="">Git</div>
-              <div class="tech-item"><img class="tech-icon" src="images/technologies/github.png" alt="">GitHub</div>
-              <div class="tech-item"><img class="tech-icon" src="images/technologies/postgresql.png" alt="">Postgresql</div>
-              <div class="tech-item"><img class="tech-icon" src="images/technologies/heroku.png" alt="">Heroku</div>
-            </div>
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 icons-card" id="soft-skills-grid">
-            <h3>Personal Traits</h3>
-            <ul class="trait-list">
-              <li class="trait-item">Growth mindset</li>
-              <li class="trait-item">Approachable and always ready to help</li>
-              <li class="trait-item">Find creative solutions</li>
-              <li class="trait-item">Fast learner</li>
-              <li class="trait-item">Very good with people</li>
-              <li class="trait-item">Enthusiastic</li>
-              <li class="trait-item">Out of the box thinker</li>
-            </ul>
-          </div>
-        </div>
 
-      </div>
-
-      <div class="card-body">
-        <div class="card-deck work-sample-card">
-
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(images/planet3.jpeg)">
-              Plan-et
-            </div>
-            <div class="card-body">
-              <p class="card-text text-justify">This application is for travelers to be able to create their trips and share them with the community. New travelers can take a look at different travel plans created by other users to get some inspiration while creating theirs. </p>
-              <p class="card-text text-justify">Developed in Rails, this app relies heavily on Javascript and some Ajax to create and modify the activities inside the trips. Most of the features this app has were implemented with concepts I didn't know back then. It was a great learning experience.</p>
-              <a href="https://www.plan-et-travel.com/" class="btn my-btn" target="_blank">Take a look</a>
+          <div class="col-md-6 col-lg-4 mt-4">
+            <div class="card project-card">
+              <div class="project-header" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(images/planet3.jpeg)">
+                Plan-et
+              </div>
+              <div class="card-body">
+                <p class="card-text text-justify">This application is for travelers to be able to create their trips and share them with the community. New travelers can take a look at different travel plans created by other users to get some inspiration while creating theirs. </p>
+                <p class="card-text text-justify">Developed in Rails, this app relies heavily on Javascript and some Ajax to create and modify the activities inside the trips. Most of the features this app has were implemented with concepts I didn't know back then. It was a great learning experience.</p>
+                <a href="https://www.plan-et-travel.com/" class="btn my-btn" target="_blank">Take a look</a>
+              </div>
             </div>
           </div>
-
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(images/dinner.jpg)">
-              Hom-et
-            </div>
-            <div class="card-body">
-              <p class="card-text text-justify">This is a web application to share experiences and great moments between locals and tourist. The excuse? A delicious homemade meal.</p>
-              <p class="card-text text-justify">Foreign tourists can book meals at locals households so that they can enjoy homemade local food while meeting new and exciting people.</p>
-              <p class="card-text text-justify">On the other side, locals can receive foreign tourists so that they can share their traditions and local expertise while making new friends.</p>
-              <a href="https://hom-et.herokuapp.com/" class="btn my-btn" target="_blank">Take a look</a>
-            </div>
-          </div>
-
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url(images/mr-cocktail.png)"></div>
-            <div class="card-body">
-              <p class="card-text text-justify">This web app allow us to discover new cocktail recipes and share the ones we already know.</p>
-              <a href="https://mr-cocktail-lutzcc1.herokuapp.com/" class="btn my-btn" target="_blank">Take a look</a>
+            
+          <div class="col-md-6 col-lg-4 mt-4">
+            <div class="card project-card">
+              <div class="project-header" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.8)), url(images/dinner.jpg)">
+                Hom-et
+              </div>
+              <div class="card-body">
+                <p class="card-text text-justify">This is a web application to share experiences and great moments between locals and tourist. The excuse? A delicious homemade meal.</p>
+                <p class="card-text text-justify">Foreign tourists can book meals at locals households so that they can enjoy homemade local food while meeting new and exciting people.</p>
+                <p class="card-text text-justify">On the other side, locals can receive foreign tourists so that they can share their traditions and local expertise while making new friends.</p>
+                <a href="https://hom-et.herokuapp.com/" class="btn my-btn" target="_blank">Take a look</a>
+              </div>
             </div>
           </div>
+            
+          <div class="col-md-6 col-lg-4 mt-4">
+            <div class="card project-card">
+              <div class="project-header" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.3)), url(images/mr-cocktail.png)"></div>
+              <div class="card-body">
+                <p class="card-text text-justify">This web app allow us to discover new cocktail recipes and share the ones we already know.</p>
+                <a href="https://mr-cocktail-lutzcc1.herokuapp.com/" class="btn my-btn" target="_blank">Take a look</a>
+              </div>
+            </div>
+          </div>
+            
         </div>
       </div>
 
 
-      <div class="container contact-card" id="social">
+      <div class="container contact-card">
         <h2>Contact</h2>
             <ul class="list-inline">
               <li><a class="social-icon linkedin" href="https://www.linkedin.com/in/luis-cesar-cordova/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
